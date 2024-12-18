@@ -23,8 +23,7 @@ Description: Utilize SQL to segment customers based on their ride history, frequ
 ### 1. Database Setup
 
 - **Database Creation**: The project starts by creating a database named 'OLA'.
-- **Table Creation**: A table named 'OLA_BOOKING' is created to store the OLA sales data. The table structure includes columns for
-- DATE DATE ,TIME TIME,BOOKING_ID ,BOOKING_STATUS ,CUSTOMER_ID ,VEHICLE_TYPE ,PICKUP_LOCATION ,DROP_LOACATION ,V_TAT  ,C_TAT  ,CANCELED_RIDES_BY_CUSTOMER ,Canceled_Rides_by_Driver ,Incomplete_Rides ,Incomplete_Rides_Reason ,Booking_Value ,Payment_Method ,Ride_Distance ,Driver_Ratings ,Customer_Rating .
+- **Table Creation**: A table named 'OLA_BOOKING' is created to store the OLA sales data. The table structure includes columns for DATE DATE ,TIME TIME,BOOKING_ID ,BOOKING_STATUS ,CUSTOMER_ID ,VEHICLE_TYPE ,PICKUP_LOCATION ,DROP_LOACATION ,V_TAT  ,C_TAT  ,CANCELED_RIDES_BY_CUSTOMER ,Canceled_Rides_by_Driver ,Incomplete_Rides ,Incomplete_Rides_Reason ,Booking_Value ,Payment_Method ,Ride_Distance ,Driver_Ratings ,Customer_Rating .
 
   
 
