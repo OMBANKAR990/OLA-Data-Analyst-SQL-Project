@@ -27,17 +27,12 @@ Description: Utilize SQL to segment customers based on their ride history, frequ
 - DATE DATE ,TIME TIME,BOOKING_ID ,BOOKING_STATUS ,CUSTOMER_ID ,VEHICLE_TYPE ,PICKUP_LOCATION ,DROP_LOACATION ,V_TAT  ,C_TAT  ,CANCELED_RIDES_BY_CUSTOMER ,Canceled_Rides_by_Driver ,Incomplete_Rides ,Incomplete_Rides_Reason ,Booking_Value ,Payment_Method ,Ride_Distance ,Driver_Ratings ,Customer_Rating .
 
   
-  ```create database with the name of 'OLA'
-  -- CREATE DATABASE WITH NAME OLA
+
+  ```CREATE DATABASE WITH NAME OLA
 CREATE DATABASE OLA;
 
--- USE THAT DATABASE
 USE OLA;
 
--- SELECT ALL DATA FROM DATABASE
-SELECT COUNT(*) FROM OLA_BOOKING;
-
--- CREATE TABLE IN DATABASE
 CREATE TABLE OLA_BOOKING (
 DATE DATE NOT NULL,
 TIME TIME NOT NULL,
