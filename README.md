@@ -28,7 +28,7 @@ Description: Utilize SQL to segment customers based on their ride history, frequ
 
   
 
-  ```CREATE DATABASE WITH NAME OLA
+```sql
 CREATE DATABASE OLA;
 
 USE OLA;
